@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica PHP</title>
+</head>
+<body>
+    <h1>Primer codigo en php 🥳</h1>
+<!-- <form action="recibir.php" method="post" > -->
+<form action="recibir.php" method="get" > 
+
+<label for="nombre">Nombre</label>    
+<input type="text" name="nombre" id="nombre">
+
+<label for="apellido">Apellido</label>
+<input type="text" name="apellido" id="apellido">
+
+<label for="edad">Edad</label>
+<input type="text" id="edad" name="edad">
+<br>
+<label for="pass">Password</label>
+<input type="password" id="pass" name="pass">
+<br>
+<label for="leng">Lenguajes</label>
+<select name="leng" id="">
+
+    <option value="PHP">PHP</option>
+    <option value="JAVA2">JAVA</option>
+    <option value="PYTHON">Python</option>
+    <option value="JAVASCRIPT">JavaScript</option>
+    <option value="RUBYYY">Ruby</option>
+</select>
+
+  <br>
+  
+  <label for="radio">Radio Pelicualas</label>
+  <br>
+  <input type="radio" name="peliculas" value="terror"> terror
+  <input type="radio" name="peliculas" value="comedia"> comedia
+  <input type="radio" name="peliculas" value="accion"> accion
+  <input type="radio" name="peliculas" value="thriller"> thriller
+
+
+    <input type="submit" value="Enviar">
+    <input type="reset">
+
+</form>
+</body>
+</html>
